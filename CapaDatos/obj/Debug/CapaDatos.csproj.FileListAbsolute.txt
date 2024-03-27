@@ -1,0 +1,12 @@
+C:\Users\Sebastian\Downloads\MarketApp\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Sebastian\Downloads\MarketApp\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Sebastian\Downloads\MarketApp\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Sebastian\Downloads\MarketApp\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Downloads\MarketApp\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Sebastian\Downloads\MarketApp\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\Desarrollo de sistemas 2\MarketApp\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Desarrollo de sistemas 2\MarketApp\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Desarrollo de sistemas 2\MarketApp\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+D:\Desarrollo de sistemas 2\MarketApp\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+D:\Desarrollo de sistemas 2\MarketApp\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Desarrollo de sistemas 2\MarketApp\CapaDatos\obj\Debug\CapaDatos.pdb
