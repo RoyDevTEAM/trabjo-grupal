@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CapaDatos\\bin",
+    "\\CapaDatos",
     "\\MarketApp"
   ],
-  "SelectedNode": "\\MarketApp\\FrmCliente.cs",
+  "SelectedNode": "\\MarketApp.sln",
   "PreviewInSolutionExplorer": false
 }

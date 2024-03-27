@@ -12,25 +12,14 @@ namespace MarketApp
 {
     public partial class FrmVenta : Form
     {
-
-
-        private static FrmVenta _instancia;
-
-        public static FrmVenta GetInstancia()
-        {
-            if (_instancia == null)
-            {
-                _instancia = new FrmVenta();
-            }
-            return _instancia;
-        }
-
-
-
         public FrmVenta()
         {
             InitializeComponent();
-            
+        }
+
+        public static FrmVenta GetInstancia()
+        {
+            return new FrmVenta();
         }
 
         private void btn_Click(object sender, EventArgs e)

@@ -36,7 +36,6 @@
             this.lblTitleChildForm = new System.Windows.Forms.Label();
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.btnSetting = new FontAwesome.Sharp.IconButton();
             this.btnMarketing = new FontAwesome.Sharp.IconButton();
             this.btnCustomer = new FontAwesome.Sharp.IconButton();
@@ -59,17 +58,17 @@
             this.panelDesktop.BackColor = System.Drawing.SystemColors.Control;
             this.panelDesktop.Controls.Add(this.pictureBox1);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(267, 127);
+            this.panelDesktop.Location = new System.Drawing.Point(267, 135);
             this.panelDesktop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(1312, 650);
+            this.panelDesktop.Size = new System.Drawing.Size(1312, 642);
             this.panelDesktop.TabIndex = 11;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(373, 166);
+            this.pictureBox1.Location = new System.Drawing.Point(373, 162);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(623, 379);
@@ -81,7 +80,7 @@
             // 
             this.panelShadow.BackColor = System.Drawing.Color.RoyalBlue;
             this.panelShadow.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelShadow.Location = new System.Drawing.Point(267, 115);
+            this.panelShadow.Location = new System.Drawing.Point(267, 123);
             this.panelShadow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelShadow.Name = "panelShadow";
             this.panelShadow.Size = new System.Drawing.Size(1312, 12);
@@ -96,7 +95,7 @@
             this.panelTitleBar.Location = new System.Drawing.Point(267, 0);
             this.panelTitleBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(1312, 115);
+            this.panelTitleBar.Size = new System.Drawing.Size(1312, 123);
             this.panelTitleBar.TabIndex = 9;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
@@ -107,7 +106,7 @@
             this.lblTitleChildForm.Location = new System.Drawing.Point(79, 36);
             this.lblTitleChildForm.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitleChildForm.Name = "lblTitleChildForm";
-            this.lblTitleChildForm.Size = new System.Drawing.Size(44, 16);
+            this.lblTitleChildForm.Size = new System.Drawing.Size(45, 17);
             this.lblTitleChildForm.TabIndex = 3;
             this.lblTitleChildForm.Text = "Home";
             // 
@@ -129,7 +128,6 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.RoyalBlue;
-            this.panelMenu.Controls.Add(this.iconButton1);
             this.panelMenu.Controls.Add(this.btnSetting);
             this.panelMenu.Controls.Add(this.btnMarketing);
             this.panelMenu.Controls.Add(this.btnCustomer);
@@ -143,29 +141,6 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(267, 777);
             this.panelMenu.TabIndex = 8;
-            // 
-            // iconButton1
-            // 
-            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.User;
-            this.iconButton1.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 32;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(0, 471);
-            this.iconButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Padding = new System.Windows.Forms.Padding(13, 0, 27, 0);
-            this.iconButton1.Size = new System.Drawing.Size(267, 58);
-            this.iconButton1.TabIndex = 13;
-            this.iconButton1.Text = "Clientes";
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton1.UseVisualStyleBackColor = true;
-            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // btnSetting
             // 
@@ -254,6 +229,7 @@
             this.btnProduct.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProduct.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnProduct.UseVisualStyleBackColor = true;
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // btnVenta
             // 
@@ -364,6 +340,5 @@
         private FontAwesome.Sharp.IconButton btnProduct;
         private FontAwesome.Sharp.IconButton btnVenta;
         private FontAwesome.Sharp.IconButton btnDashboard;
-        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }

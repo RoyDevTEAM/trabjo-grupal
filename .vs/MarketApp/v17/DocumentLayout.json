@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sebastian\\Downloads\\MarketApp\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|c:\\users\\sebastian\\downloads\\marketapp\\marketapp\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|solutionrelative:marketapp\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|c:\\users\\pc\\documents\\universidad\\desarrollo de sistemas ii\\proyecto final\\marketapp\\marketapp\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|solutionrelative:marketapp\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|c:\\users\\sebastian\\downloads\\marketapp\\marketapp\\frmeditarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|solutionrelative:marketapp\\frmeditarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\marketapp\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|solutionrelative:marketapp\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|c:\\users\\sebastian\\downloads\\marketapp\\marketapp\\frmeditarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|solutionrelative:marketapp\\frmeditarclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\marketapp\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|solutionrelative:marketapp\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|C:\\Users\\Sebastian\\Downloads\\MarketApp\\marketapp\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|solutionrelative:marketapp\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\marketapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CD2FAD-9098-4C5F-AFD0-C1A335356B26}|MarketApp\\MarketApp.csproj|solutionrelative:marketapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,64 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmEditarClientes.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Downloads\\MarketApp\\MarketApp\\FrmEditarClientes.cs",
-              "RelativeDocumentMoniker": "MarketApp\\FrmEditarClientes.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Downloads\\MarketApp\\MarketApp\\FrmEditarClientes.cs",
-              "RelativeToolTip": "MarketApp\\FrmEditarClientes.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAwwB8AAAAZAAAA",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\MarketApp\\Program.cs",
+              "RelativeDocumentMoniker": "MarketApp\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\MarketApp\\Program.cs",
+              "RelativeToolTip": "MarketApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T12:47:19.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T21:26:45.756Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmEditarClientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Downloads\\MarketApp\\MarketApp\\FrmEditarClientes.cs",
-              "RelativeDocumentMoniker": "MarketApp\\FrmEditarClientes.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Downloads\\MarketApp\\MarketApp\\FrmEditarClientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MarketApp\\FrmEditarClientes.cs [Dise\u00F1o]",
+              "Title": "FrmMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\MarketApp\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "MarketApp\\FrmMenu.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\MarketApp\\FrmMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MarketApp\\FrmMenu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T12:36:08.163Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-03-18T01:54:54.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMenu.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\MarketApp\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "MarketApp\\FrmMenu.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\MarketApp\\FrmMenu.cs",
+              "RelativeToolTip": "MarketApp\\FrmMenu.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAUwFsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T01:54:21.139Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Downloads\\MarketApp\\MarketApp\\FrmCliente.cs",
-              "RelativeDocumentMoniker": "MarketApp\\FrmCliente.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Downloads\\MarketApp\\MarketApp\\FrmCliente.cs",
-              "RelativeToolTip": "MarketApp\\FrmCliente.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAwwGcAAABDAAAA",
+              "Title": "FrmVenta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\MarketApp\\FrmVenta.cs",
+              "RelativeDocumentMoniker": "MarketApp\\FrmVenta.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Universidad\\Desarrollo de sistemas II\\Proyecto Final\\MarketApp\\MarketApp\\FrmVenta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MarketApp\\FrmVenta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T12:21:14.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Downloads\\MarketApp\\MarketApp\\FrmCliente.cs",
-              "RelativeDocumentMoniker": "MarketApp\\FrmCliente.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Downloads\\MarketApp\\MarketApp\\FrmCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MarketApp\\FrmCliente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T03:26:05.357Z",
+              "WhenOpened": "2024-03-16T19:42:13.232Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
