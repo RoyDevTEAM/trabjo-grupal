@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="pruebaModelStoreContainer" CdmEntityContainer="pruebaEntities">
+    <EntitySetMapping Name="categoria">
+      <EntityTypeMapping TypeName="pruebaModel.categoria">
+        <MappingFragment StoreEntitySet="categoria">
+          <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+          <ScalarProperty Name="nombre_categoria" ColumnName="nombre_categoria" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="producto">
+      <EntityTypeMapping TypeName="pruebaModel.producto">
+        <MappingFragment StoreEntitySet="producto">
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+          <ScalarProperty Name="id_unidad_medida" ColumnName="id_unidad_medida" />
+          <ScalarProperty Name="id_subcategoria" ColumnName="id_subcategoria" />
+          <ScalarProperty Name="nombre_producto" ColumnName="nombre_producto" />
+          <ScalarProperty Name="precio_producto" ColumnName="precio_producto" />
+          <ScalarProperty Name="descripcion_producto" ColumnName="descripcion_producto" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="subcategoria">
+      <EntityTypeMapping TypeName="pruebaModel.subcategoria">
+        <MappingFragment StoreEntitySet="subcategoria">
+          <ScalarProperty Name="id_subcategoria" ColumnName="id_subcategoria" />
+          <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+          <ScalarProperty Name="nombre_subcategoria" ColumnName="nombre_subcategoria" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="unidad_medida">
+      <EntityTypeMapping TypeName="pruebaModel.unidad_medida">
+        <MappingFragment StoreEntitySet="unidad_medida">
+          <ScalarProperty Name="id_unidad_medida" ColumnName="id_unidad_medida" />
+          <ScalarProperty Name="nombre_medida" ColumnName="nombre_medida" />
+          <ScalarProperty Name="abreviatura" ColumnName="abreviatura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

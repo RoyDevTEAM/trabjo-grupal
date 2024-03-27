@@ -24,84 +24,116 @@ C:\Users\SCPC601\Documents\JL\Proyecto Final\MarketApp\MarketApp\obj\Debug\Marke
 C:\Users\SCPC601\Documents\JL\Proyecto Final\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CopyComplete
 C:\Users\SCPC601\Documents\JL\Proyecto Final\MarketApp\MarketApp\obj\Debug\MarketApp.exe
 C:\Users\SCPC601\Documents\JL\Proyecto Final\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\bin\Debug\MarketApp.exe.config
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\bin\Debug\MarketApp.exe
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\bin\Debug\MarketApp.pdb
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\bin\Debug\FontAwesome.Sharp.dll
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.AssemblyReference.cache
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.FrmMenu.resources
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.FrmVenta.resources
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.Properties.Resources.resources
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.GenerateResource.cache
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CoreCompileInputs.cache
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CopyComplete
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.exe
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.FrmClientes.resources
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.FrmCliente.resources
-D:\Desarrollo de sistemas 2\MarketApp\MarketApp\obj\Debug\MarketApp.FrmEditarClientes.resources
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\bin\Debug\MarketApp.exe.config
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\bin\Debug\MarketApp.exe
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\bin\Debug\MarketApp.pdb
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.AssemblyReference.cache
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmCliente.resources
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmClientes.resources
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmEditarClientes.resources
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmMenu.resources
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmVenta.resources
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.Properties.Resources.resources
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.GenerateResource.cache
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CoreCompileInputs.cache
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.Up2Date
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.exe
-C:\Users\Sebastian\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\bin\Debug\MarketApp.exe.config
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\bin\Debug\MarketApp.exe
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\bin\Debug\MarketApp.pdb
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.AssemblyReference.cache
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.FrmCliente.resources
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.FrmClientes.resources
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.FrmEditarClientes.resources
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.FrmMenu.resources
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.FrmVenta.resources
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.Properties.Resources.resources
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.GenerateResource.cache
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CoreCompileInputs.cache
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CopyComplete
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.exe
-C:\Users\Jack\Desktop\Proyecto MiniSuper\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\bin\Debug\MarketApp.exe.config
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\bin\Debug\MarketApp.exe
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\bin\Debug\MarketApp.pdb
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\bin\Debug\FontAwesome.Sharp.dll
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.AssemblyReference.cache
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.FrmCliente.resources
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.FrmClientes.resources
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.FrmEditarClientes.resources
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.FrmMenu.resources
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.FrmVenta.resources
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.Properties.Resources.resources
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.GenerateResource.cache
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CoreCompileInputs.cache
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CopyComplete
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.exe
-D:\Repos-C3-DSI\DesarrolloSistemasIIMARZO\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\bin\Debug\MarketApp.exe.config
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\bin\Debug\MarketApp.exe
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\bin\Debug\MarketApp.pdb
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.AssemblyReference.cache
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.SuggestedBindingRedirects.cache
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmCliente.resources
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmClientes.resources
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmEditarClientes.resources
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmMenu.resources
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmVenta.resources
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.Properties.Resources.resources
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.GenerateResource.cache
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CoreCompileInputs.cache
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CopyComplete
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.exe
-C:\Users\SCPC617\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\bin\Debug\MarketApp.exe.config
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\bin\Debug\MarketApp.exe
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\bin\Debug\MarketApp.pdb
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\bin\Debug\EntityFramework.dll
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\bin\Debug\System.Data.SqlClient.dll
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\bin\Debug\EntityFramework.xml
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\bin\Debug\System.Data.SqlClient.xml
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.CCategoria.resources
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.Ssubcategoria.resources
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmMenu.resources
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmProducto.resources
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.FrmVenta.resources
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.Properties.Resources.resources
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.UnidadMedida.resources
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.GenerateResource.cache
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CoreCompileInputs.cache
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CopyComplete
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.exe
+C:\Users\amilcar\Downloads\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\bin\Debug\MarketApp.exe.config
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\bin\Debug\MarketApp.exe
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\bin\Debug\MarketApp.pdb
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\bin\Debug\EntityFramework.dll
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\bin\Debug\System.Data.SqlClient.dll
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\bin\Debug\EntityFramework.xml
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\bin\Debug\System.Data.SqlClient.xml
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.AssemblyReference.cache
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.CCategoria.resources
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.Ssubcategoria.resources
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.FrmMenu.resources
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.FrmProducto.resources
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.FrmVenta.resources
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.Properties.Resources.resources
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.UnidadMedida.resources
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.GenerateResource.cache
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CoreCompileInputs.cache
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CopyComplete
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.exe
+C:\Users\amilcar\Desktop\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\bin\Debug\MarketApp.exe.config
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\bin\Debug\MarketApp.exe
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\bin\Debug\MarketApp.pdb
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.dll
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\bin\Debug\System.Data.SqlClient.dll
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.xml
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\bin\Debug\System.Data.SqlClient.xml
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.CCategoria.resources
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.Ssubcategoria.resources
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.FrmMenu.resources
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.FrmProducto.resources
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.FrmVenta.resources
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.Properties.Resources.resources
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.UnidadMedida.resources
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.GenerateResource.cache
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CoreCompileInputs.cache
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CopyComplete
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.exe
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
+C:\Users\jcram\OneDrive\Documentos\7mo semestre\DESARROLLO DE SISTEMAS 2\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.AssemblyReference.cache
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\bin\Debug\MarketApp.exe.config
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\bin\Debug\MarketApp.exe
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\bin\Debug\MarketApp.pdb
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.dll
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\bin\Debug\System.Data.SqlClient.dll
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.xml
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\bin\Debug\System.Data.SqlClient.xml
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.CCategoria.resources
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.Ssubcategoria.resources
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.FrmMenu.resources
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.FrmProducto.resources
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.FrmVenta.resources
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.Properties.Resources.resources
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.UnidadMedida.resources
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.GenerateResource.cache
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CoreCompileInputs.cache
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CopyComplete
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.exe
+C:\Users\amilcar\Downloads\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\bin\Debug\MarketApp.exe.config
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\bin\Debug\MarketApp.exe
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\bin\Debug\MarketApp.pdb
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.dll
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\bin\Debug\System.Data.SqlClient.dll
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.xml
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\bin\Debug\System.Data.SqlClient.xml
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.CCategoria.resources
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.Ssubcategoria.resources
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.FrmMenu.resources
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.FrmProducto.resources
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.FrmVenta.resources
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.Properties.Resources.resources
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.UnidadMedida.resources
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.GenerateResource.cache
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CoreCompileInputs.cache
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.CopyComplete
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.exe
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.pdb
+C:\Users\amilcar\Desktop\ProyecProduc\MarketApp\MarketApp\obj\Debug\MarketApp.csproj.AssemblyReference.cache

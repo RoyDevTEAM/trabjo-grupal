@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pruebaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="categoria">
+    <Key>
+      <PropertyRef Name="id_categoria" />
+    </Key>
+    <Property Name="id_categoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_categoria" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="producto">
+    <Key>
+      <PropertyRef Name="id_producto" />
+    </Key>
+    <Property Name="id_producto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_unidad_medida" Type="int" Nullable="false" />
+    <Property Name="id_subcategoria" Type="int" Nullable="false" />
+    <Property Name="nombre_producto" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="precio_producto" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="descripcion_producto" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="stock" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="subcategoria">
+    <Key>
+      <PropertyRef Name="id_subcategoria" />
+    </Key>
+    <Property Name="id_subcategoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_categoria" Type="int" Nullable="false" />
+    <Property Name="nombre_subcategoria" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="unidad_medida">
+    <Key>
+      <PropertyRef Name="id_unidad_medida" />
+    </Key>
+    <Property Name="id_unidad_medida" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_medida" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="abreviatura" Type="varchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__producto__id_sub__3F466844">
+    <End Role="subcategoria" Type="Self.subcategoria" Multiplicity="1" />
+    <End Role="producto" Type="Self.producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subcategoria">
+        <PropertyRef Name="id_subcategoria" />
+      </Principal>
+      <Dependent Role="producto">
+        <PropertyRef Name="id_subcategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__producto__id_uni__3E52440B">
+    <End Role="unidad_medida" Type="Self.unidad_medida" Multiplicity="1" />
+    <End Role="producto" Type="Self.producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="unidad_medida">
+        <PropertyRef Name="id_unidad_medida" />
+      </Principal>
+      <Dependent Role="producto">
+        <PropertyRef Name="id_unidad_medida" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__subcatego__id_ca__398D8EEE">
+    <End Role="categoria" Type="Self.categoria" Multiplicity="1" />
+    <End Role="subcategoria" Type="Self.subcategoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categoria">
+        <PropertyRef Name="id_categoria" />
+      </Principal>
+      <Dependent Role="subcategoria">
+        <PropertyRef Name="id_categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="pruebaModelStoreContainer">
+    <EntitySet Name="categoria" EntityType="Self.categoria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="producto" EntityType="Self.producto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="subcategoria" EntityType="Self.subcategoria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="unidad_medida" EntityType="Self.unidad_medida" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__producto__id_sub__3F466844" Association="Self.FK__producto__id_sub__3F466844">
+      <End Role="subcategoria" EntitySet="subcategoria" />
+      <End Role="producto" EntitySet="producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__producto__id_uni__3E52440B" Association="Self.FK__producto__id_uni__3E52440B">
+      <End Role="unidad_medida" EntitySet="unidad_medida" />
+      <End Role="producto" EntitySet="producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__subcatego__id_ca__398D8EEE" Association="Self.FK__subcatego__id_ca__398D8EEE">
+      <End Role="categoria" EntitySet="categoria" />
+      <End Role="subcategoria" EntitySet="subcategoria" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

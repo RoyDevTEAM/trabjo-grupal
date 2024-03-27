@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pruebaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="categoria">
+    <Key>
+      <PropertyRef Name="id_categoria" />
+    </Key>
+    <Property Name="id_categoria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_categoria" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="subcategoria" Relationship="Self.FK__subcatego__id_ca__398D8EEE" FromRole="categoria" ToRole="subcategoria" />
+  </EntityType>
+  <EntityType Name="producto">
+    <Key>
+      <PropertyRef Name="id_producto" />
+    </Key>
+    <Property Name="id_producto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_unidad_medida" Type="Int32" Nullable="false" />
+    <Property Name="id_subcategoria" Type="Int32" Nullable="false" />
+    <Property Name="nombre_producto" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="precio_producto" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="descripcion_producto" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="stock" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="subcategoria" Relationship="Self.FK__producto__id_sub__3F466844" FromRole="producto" ToRole="subcategoria" />
+    <NavigationProperty Name="unidad_medida" Relationship="Self.FK__producto__id_uni__3E52440B" FromRole="producto" ToRole="unidad_medida" />
+  </EntityType>
+  <EntityType Name="subcategoria">
+    <Key>
+      <PropertyRef Name="id_subcategoria" />
+    </Key>
+    <Property Name="id_subcategoria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_categoria" Type="Int32" Nullable="false" />
+    <Property Name="nombre_subcategoria" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="categoria" Relationship="Self.FK__subcatego__id_ca__398D8EEE" FromRole="subcategoria" ToRole="categoria" />
+    <NavigationProperty Name="producto" Relationship="Self.FK__producto__id_sub__3F466844" FromRole="subcategoria" ToRole="producto" />
+  </EntityType>
+  <EntityType Name="unidad_medida">
+    <Key>
+      <PropertyRef Name="id_unidad_medida" />
+    </Key>
+    <Property Name="id_unidad_medida" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_medida" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="abreviatura" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="producto" Relationship="Self.FK__producto__id_uni__3E52440B" FromRole="unidad_medida" ToRole="producto" />
+  </EntityType>
+  <Association Name="FK__subcatego__id_ca__398D8EEE">
+    <End Role="categoria" Type="Self.categoria" Multiplicity="1" />
+    <End Role="subcategoria" Type="Self.subcategoria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="categoria">
+        <PropertyRef Name="id_categoria" />
+      </Principal>
+      <Dependent Role="subcategoria">
+        <PropertyRef Name="id_categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__producto__id_sub__3F466844">
+    <End Role="subcategoria" Type="Self.subcategoria" Multiplicity="1" />
+    <End Role="producto" Type="Self.producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="subcategoria">
+        <PropertyRef Name="id_subcategoria" />
+      </Principal>
+      <Dependent Role="producto">
+        <PropertyRef Name="id_subcategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__producto__id_uni__3E52440B">
+    <End Role="unidad_medida" Type="Self.unidad_medida" Multiplicity="1" />
+    <End Role="producto" Type="Self.producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="unidad_medida">
+        <PropertyRef Name="id_unidad_medida" />
+      </Principal>
+      <Dependent Role="producto">
+        <PropertyRef Name="id_unidad_medida" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="pruebaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="categoria" EntityType="Self.categoria" />
+    <EntitySet Name="producto" EntityType="Self.producto" />
+    <EntitySet Name="subcategoria" EntityType="Self.subcategoria" />
+    <EntitySet Name="unidad_medida" EntityType="Self.unidad_medida" />
+    <AssociationSet Name="FK__subcatego__id_ca__398D8EEE" Association="Self.FK__subcatego__id_ca__398D8EEE">
+      <End Role="categoria" EntitySet="categoria" />
+      <End Role="subcategoria" EntitySet="subcategoria" />
+    </AssociationSet>
+    <AssociationSet Name="FK__producto__id_sub__3F466844" Association="Self.FK__producto__id_sub__3F466844">
+      <End Role="subcategoria" EntitySet="subcategoria" />
+      <End Role="producto" EntitySet="producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__producto__id_uni__3E52440B" Association="Self.FK__producto__id_uni__3E52440B">
+      <End Role="unidad_medida" EntitySet="unidad_medida" />
+      <End Role="producto" EntitySet="producto" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

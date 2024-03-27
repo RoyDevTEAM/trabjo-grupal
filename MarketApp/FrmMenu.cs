@@ -14,7 +14,6 @@ namespace MarketApp
 {
     public partial class FrmMenu : Form
     {
-        //fields
         private IconButton currentBtn;
         private Panel lefBorderBtn;
         private Form currentChildForm;
@@ -25,18 +24,11 @@ namespace MarketApp
             lefBorderBtn = new Panel();
             lefBorderBtn.Size = new Size(7, 60);
             panelMenu.Controls.Add(lefBorderBtn);
-
-            //form
-            //this.Text = string.Empty;
-            //this.ControlBox = false;
-            //this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
         }
 
-        //structs
         private struct RGBColors
         {
-
             public static Color color1 = Color.FromArgb(172, 126, 241);
             public static Color color2 = Color.FromArgb(249, 118, 176);
             public static Color color3 = Color.FromArgb(253, 138, 114);
@@ -45,11 +37,9 @@ namespace MarketApp
             public static Color color6 = Color.FromArgb(24, 161, 251);
         }
 
-
-        //metodos
         private void ActivateButton(object senderbtn, Color color)
         {
-            if (senderbtn == null)
+            if (senderbtn != null)
             {
                 DisableButton();
                 currentBtn = (IconButton)senderbtn;
@@ -59,13 +49,10 @@ namespace MarketApp
                 currentBtn.IconColor = color;
                 currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
                 currentBtn.ImageAlign = ContentAlignment.MiddleRight;
-                //left border button
                 lefBorderBtn.BackColor = color;
                 lefBorderBtn.Location = new Point(0, currentBtn.Location.Y);
                 lefBorderBtn.Visible = true;
                 lefBorderBtn.BringToFront();
-
-                //icon
                 iconCurrentChildForm.IconChar = currentBtn.IconChar;
                 iconCurrentChildForm.IconColor = color;
             }
@@ -75,7 +62,6 @@ namespace MarketApp
         {
             if (currentBtn != null)
             {
-
                 currentBtn.BackColor = Color.FromArgb(31, 30, 68);
                 currentBtn.ForeColor = Color.Gainsboro;
                 currentBtn.TextAlign = ContentAlignment.MiddleLeft;
@@ -89,12 +75,9 @@ namespace MarketApp
         {
             if (currentChildForm != null)
             {
-                // Oculta el formulario en lugar de cerrarlo
-                currentChildForm.Hide();
+                currentChildForm.Close();
             }
-
             currentChildForm = chilForm;
-
             chilForm.TopLevel = false;
             chilForm.FormBorderStyle = FormBorderStyle.None;
             chilForm.Dock = DockStyle.Fill;
@@ -102,47 +85,20 @@ namespace MarketApp
             panelDesktop.Tag = chilForm;
             chilForm.BringToFront();
             chilForm.Show();
-
             lblTitleChildForm.Text = chilForm.Text;
         }
 
-
-        //private void btnDashboard_Click(object sender, EventArgs e)
-        //{
-        //    ActivateButton(sender, RGBColors.color1);
-        //    OpenChildForm(FrmTrabajador.GetInstancia()); // llamar al form con get instancia, sin el new
-        //}
         private void btnVenta_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
-            OpenChildForm(FrmVenta.GetInstancia()); // llamar al form con get instancia, sin el new
+            OpenChildForm(FrmVenta.GetInstancia());
         }
 
-        
-
-        //private void btnProduct_Click(object sender, EventArgs e)
-        //{
-        //    ActivateButton(sender, RGBColors.color3);
-        //    OpenChildForm(FrmArticulo.GetInstancia());
-        //}
-
-        //private void btnCustomer_Click(object sender, EventArgs e)
-        //{
-        //    ActivateButton(sender, RGBColors.color4);
-        //    OpenChildForm(FrmProveedor.GetInstancia());
-        //}
-
-        //private void btnMarketing_Click(object sender, EventArgs e)
-        //{
-        //    ActivateButton(sender, RGBColors.color5);
-        //    OpenChildForm(FrmClientes.GetInstancia());
-        //}
-
-        //private void btnSetting_Click(object sender, EventArgs e)
-        //{
-        //    ActivateButton(sender, RGBColors.color6);
-        //    OpenChildForm(FrmCategoria.GetInstancia());
-        //}
+        private void btnProduct_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color2);
+            OpenChildForm(FrmProducto.GetInstancia());
+        }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
@@ -154,14 +110,11 @@ namespace MarketApp
         {
             DisableButton();
             lefBorderBtn.Visible = false;
-
-            //
             iconCurrentChildForm.IconChar = IconChar.Home;
             iconCurrentChildForm.IconColor = Color.Gainsboro;
             lblTitleChildForm.Text = "Home";
         }
 
-        //drag form
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void Releasecapture();
 
@@ -172,12 +125,6 @@ namespace MarketApp
         {
             Releasecapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
-        }
-
-        private void iconButton1_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color2);
-            OpenChildForm(FrmCliente.GetInstancia()); // llamar al form con get instancia, sin el new
         }
     }
 }

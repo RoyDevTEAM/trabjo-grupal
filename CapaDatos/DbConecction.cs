@@ -11,7 +11,7 @@ namespace CapaDatos
 {
     public abstract class DbConecction
     {
-        public static string cn = "Server=JOSUE-HS;Database=db_minimercado;Trusted_Connection=True;Integrated Security=True";
+        public static string cn = "Server=LAPTOP-1HFVP0RR; DataBase=prueba; Integrated Security=true";
         private readonly string connectionString;
 
         public DbConecction()

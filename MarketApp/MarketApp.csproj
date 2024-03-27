@@ -33,13 +33,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.3.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.6, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.6\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -53,23 +65,35 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmCliente.cs">
+    <Compile Include="categoria.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCliente.Designer.cs">
-      <DependentUpon>FrmCliente.cs</DependentUpon>
+    <Compile Include="Categoria.Designer.cs">
+      <DependentUpon>categoria.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmClientes.cs">
+    <Compile Include="CCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmClientes.Designer.cs">
-      <DependentUpon>FrmClientes.cs</DependentUpon>
+    <Compile Include="CCategoria.Designer.cs">
+      <DependentUpon>CCategoria.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmEditarClientes.cs">
+    <Compile Include="pruebaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pruebaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Ssubcategoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmEditarClientes.Designer.cs">
-      <DependentUpon>FrmEditarClientes.cs</DependentUpon>
+    <Compile Include="Ssubcategoria.Designer.cs">
+      <DependentUpon>Ssubcategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProducto.Designer.cs">
+      <DependentUpon>FrmProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
@@ -83,19 +107,49 @@
     <Compile Include="FrmVenta.Designer.cs">
       <DependentUpon>FrmVenta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="producto.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmCliente.resx">
-      <DependentUpon>FrmCliente.cs</DependentUpon>
+    <Compile Include="subcategoria.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnidadMedida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnidadMedida.Designer.cs">
+      <DependentUpon>UnidadMedida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="unidad_medida.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CCategoria.resx">
+      <DependentUpon>CCategoria.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmClientes.resx">
-      <DependentUpon>FrmClientes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmEditarClientes.resx">
-      <DependentUpon>FrmEditarClientes.cs</DependentUpon>
+    <EmbeddedResource Include="Ssubcategoria.resx">
+      <DependentUpon>Ssubcategoria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProducto.resx">
+      <DependentUpon>FrmProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmVenta.resx">
       <DependentUpon>FrmVenta.cs</DependentUpon>
@@ -108,8 +162,17 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UnidadMedida.resx">
+      <DependentUpon>UnidadMedida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -120,15 +183,35 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="pruebaDataSet.xsc">
+      <DependentUpon>pruebaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pruebaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pruebaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pruebaDataSet.xss">
+      <DependentUpon>pruebaDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\EditIco.png" />
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\DeleteIco.png" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
